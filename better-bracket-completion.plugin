@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=better-bracket-completion
+IAge=3
+Name=Better Bracket Completion
+Description=Smarter completion of common characters we use in pairs. ({["''"]})
+Authors=Gary Haran <gary.haran@gmail.com>, Shauna Gordon <shauna@shaunagordon.com>, Otavio Robba <ottorobba@gmail.com>
+Copyright=Copyright © 2006 Gary Haran <gary.haran@gmail.com>, © 2012 Shauna Gordon <shauna@shaunagordon.com>, © 2017 Otto Robba <ottorobba@gmail.com>
+Website=https://github.com/OttoRobba/gedit-bracket-completion
