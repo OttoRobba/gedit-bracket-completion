@@ -65,7 +65,8 @@ class GeminiPlugin(GObject.Object, Gedit.WindowActivatable):
             else:
                 index = -1
                 start_str, end_str = None, None
-            if event.keyval not in (65288, 65535):
+
+            if event.keyval not in (65288, 65535) and index > -1:   
                 # pad the selected text with twins
                 start_iter = buf.get_iter_at_mark(buf.get_insert())
                 end_iter = buf.get_iter_at_mark(buf.get_selection_bound())
